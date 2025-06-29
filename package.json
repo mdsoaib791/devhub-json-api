@@ -2,7 +2,7 @@
   "name": "json-server-api",
   "version": "1.0.0",
   "description": "DevHub mock backend using json-server",
-  "main": "index.js",
+ 
   "scripts": {
     "start": "json-server --watch db.json --port 4000"
   },
