@@ -1,0 +1,73 @@
+{
+  "users": [
+    {
+      "id": "08da",
+      "email": "mdsoaib@gmail.com",
+      "password": "Soaib123!@#",
+      "name": "Md Soaib Ansari"
+    },
+    {
+      "id": "2e40",
+      "email": "haider@gmail.com",
+      "password": "Haider123!@#",
+      "name": "Haider"
+    }
+  ],
+  "developers": [
+    {
+      "id": "350d",
+      "userId": "08da",
+      "name": "Md Soaib Ansari",
+      "email": "mdsoaib@gmail.com",
+      "bio": "",
+      "avatar": "",
+      "skills": []
+    },
+    {
+      "id": "769d",
+      "userId": "2e40",
+      "name": "Haider",
+      "email": "haider@gmail.com",
+      "bio": "",
+      "avatar": "",
+      "skills": []
+    }
+  ],
+  "blogs": [
+    {
+      "id": "bb1f",
+      "title": "First Blog",
+      "content": "Lorem ipsum is a dummy or placeholder text commonly used in graphic design, publishing, and web development. Its purpose is to permit a page layout to be designed, independently of the copy that will subsequently populate it, or to demonstrate various fonts of a typeface without meaningful text that could be distracting.",
+      "userId": "e545",
+      "createdAt": "2025-06-29T10:27:23.056Z",
+      "updatedAt": "2025-06-29T10:27:23.056Z"
+    },
+    {
+      "id": "9b6b",
+      "social": {},
+      "userId": "08da",
+      "content": "New Blog testing",
+      "title": "New Blog",
+      "createdAt": "2025-06-29T12:06:27.193Z",
+      "updatedAt": "2025-06-29T12:06:27.193Z"
+    }
+  ],
+  "comments": [
+    {
+      "id": "4350",
+      "blogId": "bb1f",
+      "userId": "e545",
+      "author": "admin",
+      "content": "Fisrt comment for test",
+      "createdAt": "2025-06-29T11:19:43.309Z"
+    },
+    {
+      "id": "b9f0",
+      "blogId": "bb1f",
+      "userId": "08da",
+      "author": "Md Soaib Ansari",
+      "content": "Good Blog very helpfull",
+      "createdAt": "2025-06-29T12:03:33.686Z"
+    }
+  ]
+}
